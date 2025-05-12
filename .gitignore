@@ -1,0 +1,34 @@
+# ========== General ==========
+.env.*
+
+# ========== Node (Vue Frontend) ==========
+node_modules/
+dist/
+
+# ========== .NET Core (C# Backend) ==========
+**/bin/
+**/obj/
+*.user
+.vs/
+
+# Rider / VS Code
+.idea/
+.vscode/
+
+# ASP.NET Scaffolding
+.scaffolding/
+
+# dotnet generated files
+*.dbmdl
+*.bak
+*.mdb
+*.pdb
+
+# Mongo local config (if any)
+*.local.json
+
+# ========== Logs ==========
+
+
+# ========== Others ==========
+
